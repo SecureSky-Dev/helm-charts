@@ -11,7 +11,7 @@ crawler:
   podLabels: {}
   token: ""
   image:
-    name: soveren/crawler
+    name: securesky/crawler
     tag: v0.19.0
     pullPolicy: IfNotPresent
   env: []
@@ -329,7 +329,7 @@ detectionTool:
   podAnnotations: {}
   podLabels: {}
   image:
-    name: soveren/detection-tool-dar
+    name: securesky/detection-tool-dar
     tag: v2.13.6
     pullPolicy: IfNotPresent
   env: []
@@ -380,7 +380,7 @@ kafka:
     podAnnotations: {}
     podLabels: {}
     image:
-      name: soveren/kafka
+      name: securesky/kafka
       tag: 2.13-3.5.1
       pullPolicy: IfNotPresent
     env:
@@ -428,7 +428,7 @@ kafka:
       enabled: true
       port: 9308
       image:
-        name: soveren/kafka-exporter
+        name: securesky/kafka-exporter
         tag: v1.7.0
       resources:
         requests:

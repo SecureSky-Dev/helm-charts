@@ -20,7 +20,7 @@ Release date: Sep 30, 2024
 
 ### Changes
 
-In this release, we've introduced a new approach to working with databases via the new Ranger component. It can be launched and granted access to the database. Once initialized, it establishes communication with the [Crawler](https://github.com/soverenio/helm-charts/tree/master/charts/soveren-dar-sensor), allowing the Crawler to delegate database processing tasks to Ranger without requiring access credentials for the database.
+In this release, we've introduced a new approach to working with databases via the new Ranger component. It can be launched and granted access to the database. Once initialized, it establishes communication with the [Crawler](https://github.com/SecureSky-Dev/helm-charts/tree/master/charts/soveren-dar-sensor), allowing the Crawler to delegate database processing tasks to Ranger without requiring access credentials for the database.
 
 #### Ranger v0.10.0
 

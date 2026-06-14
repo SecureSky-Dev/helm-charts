@@ -16,7 +16,7 @@ ranger:
   # Should always be specified
   crawler_address:
   image:
-    name: soveren/ranger
+    name: securesky/ranger
     tag: v0.10.0
     pullPolicy: IfNotPresent
   env: []

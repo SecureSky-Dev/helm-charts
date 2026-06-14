@@ -298,13 +298,13 @@ Release date: Sep 30, 2024
 
 ### Changes
 
-In this release, we've introduced a new approach to working with databases. The new [Ranger](https://github.com/soverenio/helm-charts/tree/master/charts/soveren-dar-ranger) component can be launched and granted access to the database. Once initialized, it establishes communication with the Crawler, allowing the Crawler to delegate database processing tasks to Ranger without requiring access credentials for the database.   
+In this release, we've introduced a new approach to working with databases. The new [Ranger](https://github.com/SecureSky-Dev/helm-charts/tree/master/charts/soveren-dar-ranger) component can be launched and granted access to the database. Once initialized, it establishes communication with the Crawler, allowing the Crawler to delegate database processing tasks to Ranger without requiring access credentials for the database.   
 
 #### Crawler v0.10.0
 
 1. Support for XLSX spreadsheets in S3
 2. Databases that have not been seen for over a month are removed from the inventory
-3. Support for the new [Ranger](https://github.com/soverenio/helm-charts/tree/master/charts/soveren-dar-ranger) component to proxy database queries
+3. Support for the new [Ranger](https://github.com/SecureSky-Dev/helm-charts/tree/master/charts/soveren-dar-ranger) component to proxy database queries
 
 
 ## DAR-24.9.1
@@ -319,9 +319,9 @@ Release date: Sep 11, 2024
 
 ### Changes
 
-This release includes an updated detection model, support for MS SQL (SQL Server) and MySQL, and support for non-public database schemas. Additionally, the sensor will scan only the specified `dbname`, if [provided in the configuration](https://docs.soveren.io/en/stable/administration/configuring-sensor/#databases).
+This release includes an updated detection model, support for MS SQL (SQL Server) and MySQL, and support for non-public database schemas. Additionally, the sensor will scan only the specified `dbname`, if [provided in the configuration](https://docs.adaptiveshield.ai/en/stable/administration/configuring-sensor/#databases).
 
-The [Object API](https://docs.soveren.io/en/stable/integration/api/ref/) has been updated in the data sources section, including S3, Kafka, and databases.
+The [Object API](https://docs.adaptiveshield.ai/en/stable/integration/api/ref/) has been updated in the data sources section, including S3, Kafka, and databases.
 
 #### Crawler v0.9.0
 
@@ -429,7 +429,7 @@ Release date: May 21, 2024
 
 This is the first generally available release of the Soveren DAR Sensor.
 
-The Soveren DAR Sensor is designed to uncover sensitive data in data sources such as S3 buckets, Kafka, and databases. It complements the [Soveren DIM Sensor](https://github.com/soverenio/helm-charts/blob/master/charts/soveren-agent/release-notes.md) by providing full visibility into your company's sensitive data landscape and control over how this sensitive data is used
+The Soveren DAR Sensor is designed to uncover sensitive data in data sources such as S3 buckets, Kafka, and databases. It complements the [Soveren DIM Sensor](https://github.com/SecureSky-Dev/helm-charts/blob/master/charts/soveren-agent/release-notes.md) by providing full visibility into your company's sensitive data landscape and control over how this sensitive data is used
 
 * **S3 buckets**
   * Currently, only AWS is supported.
@@ -442,7 +442,7 @@ The Soveren DAR Sensor is designed to uncover sensitive data in data sources suc
     * YAML
     * Text-based logs
   * GZipped JSON and logs are also supported.
-  * If the DAR sensor is complemented by the DIM sensor of version [DIM-24.5.2](https://github.com/soverenio/helm-charts/blob/master/charts/soveren-agent/release-notes.md#dim-2452) and newer, connections between Kubernetes services and S3 buckets will be shown on the data map.
+  * If the DAR sensor is complemented by the DIM sensor of version [DIM-24.5.2](https://github.com/SecureSky-Dev/helm-charts/blob/master/charts/soveren-agent/release-notes.md#dim-2452) and newer, connections between Kubernetes services and S3 buckets will be shown on the data map.
 
 * **Kafka**
   * The sensor is configured to access specified Kafka brokers with supplied credentials.
@@ -457,5 +457,5 @@ The Soveren DAR Sensor is designed to uncover sensitive data in data sources suc
 
 For details on how to deploy and configure the DAR Sensor, see the following documentation:
 
-* Quick start: https://docs.soveren.io/en/stable/getting-started/quick-start/#data-at-rest-dar
-* Configuration: https://docs.soveren.io/en/stable/administration/configuring-sensor/#dar-configuration
+* Quick start: https://docs.adaptiveshield.ai/en/stable/getting-started/quick-start/#data-at-rest-dar
+* Configuration: https://docs.adaptiveshield.ai/en/stable/administration/configuring-sensor/#dar-configuration
