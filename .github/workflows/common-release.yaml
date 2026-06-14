@@ -67,7 +67,7 @@ jobs:
     - name: Pack and release chart
       run: |
         cr package "charts/${{ env.chart_name }}"
-        cr upload "charts/${{ env.chart_name }}"
+        cr upload "charts/${{ env.chart_name }}" --skip-existing
 
     - name: Update Helm Repo Index
       run: |
