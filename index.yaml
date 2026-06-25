@@ -13,9 +13,9 @@ entries:
     version: 9.9.8-test.1
   - apiVersion: v2
     appVersion: 25.3.2
-    created: "2026-06-25T10:07:30.0654611Z"
+    created: "2026-06-25T15:30:58Z"
     description: Data flow monitoring and analytics platform
-    digest: b24d88d4ba41a771ea1f7e7b5330f955139a9fa2964c8f8db754b2bd6454713c
+    digest: c8e486ea15085250a20e8a02553b120e24661310b78ba47d69e3cfdf445d9204
     home: https://adaptiveshield.ai
     name: soveren-agent
     urls:
@@ -35,12 +35,12 @@ entries:
   soveren-dar-sensor:
   - apiVersion: v2
     appVersion: 25.9.1
-    created: "2026-06-25T10:08:53.125046752Z"
+    created: "2026-06-25T15:30:58Z"
     description: Data at rest monitoring and analytics platform
-    digest: 5be30ea9eaa43b27ec3fe4bccdf7d226bd21133c59757ac3dd118e2439d85d7e
+    digest: 02284fec16636eabd972faa45c539987ffc4d84e610245f6cd6ff342447aa6dd
     home: https://adaptiveshield.ai
     name: soveren-dar-sensor
     urls:
     - https://github.com/SecureSky-Dev/helm-charts/releases/download/soveren-dar-sensor-0.27.0/soveren-dar-sensor-0.27.0.tgz
     version: 0.27.0
-generated: "2026-06-25T10:08:53.125058646Z"
+generated: "2026-06-25T15:30:58Z"
