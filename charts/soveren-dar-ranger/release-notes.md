@@ -9,6 +9,17 @@ There are the following components of Ranger:
 
 Below are the release notes for the latest versions of Ranger. There is also the Helm chart version for each release.
 
+## Secure Sky DAR Ranger release
+
+Release date: Jun 25, 2026
+
+### Versions
+
+* **Ranger**: 0.20.0
+* **Helm chart**: 0.19.0
+
+Moving DAR ranger to Secure Sky images.
+
 ## Ranger-24.9.2
 
 Release date: Sep 30, 2024

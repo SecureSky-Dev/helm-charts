@@ -12,7 +12,7 @@ crawler:
   token: ""
   image:
     name: securesky/crawler
-    tag: v0.19.0
+    tag: v0.20.0
     pullPolicy: IfNotPresent
   env: []
   # Example of how you can use custom volume mounts:
@@ -330,7 +330,7 @@ detectionTool:
   podLabels: {}
   image:
     name: securesky/detection-tool-dar
-    tag: v2.13.6
+    tag: v2.14.0
     pullPolicy: IfNotPresent
   env: []
   # See example in the crawler section

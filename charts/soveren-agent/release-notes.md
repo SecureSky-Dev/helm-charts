@@ -16,6 +16,19 @@ If the component is not mentioned in the release notes, it means that there were
 
 Versions of Digger and Interceptors are synchronized, but sometimes there are changes in one of them only. In this case, the component that has no changes is not mentioned in the release notes.
 
+## Secure Sky DIM release
+
+Release date: Jun 25, 2026
+
+### Versions
+
+* **Digger**: 0.45.0
+* **Interceptors**: 0.45.0
+* **Detection**: 2.14.0
+* **Helm chart**: 1.53.0
+
+Moving DIM components to Secure Sky images.
+
 ## DIM-25.3.2
 
 Release date: Mar 28, 2025
@@ -641,4 +654,3 @@ Release date: Nov 28, 2023
 
 1. New retrained version of the ML model
 2. Fixed version metrics
-
