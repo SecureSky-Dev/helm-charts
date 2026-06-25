@@ -132,13 +132,7 @@ app.kubernetes.io/component: detection-tool
 {{- end -}}
 
 {{- define "statsClientAddress" -}}
-{{- if eq .Values.appCloud "aws" -}}
 stats.adaptiveshield.ai:443
-{{- else if eq .Values.appCloud "yandex" -}}
-stats.ru.adaptiveshield.ai:443
-{{- else -}}
-stats.adaptiveshield.ai:443
-{{- end -}}
 {{- end -}}
 
 {{- define "common.proxySettings" -}}

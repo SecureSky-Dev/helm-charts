@@ -2,7 +2,6 @@
 httpsProxy: ""
 httpsProxyNoProxy: ""
 useExternalSecrets: false
-appCloud: "aws"
 
 crawler:
   deploymentAnnotations: {}
