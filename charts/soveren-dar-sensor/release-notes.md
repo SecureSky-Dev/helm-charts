@@ -13,6 +13,18 @@ Below you can find the release notes with changes in components and their versio
 
 If the component is not mentioned in the release notes, it means that there were no changes in it.
 
+## Secure Sky DAR Sensor release
+
+Release date: Jun 25, 2026
+
+### Versions
+
+* **Crawler**: 0.20.0
+* **Detection**: 2.14.0
+* **Helm chart**: 0.27.0
+
+Moving DAR sensor components to Secure Sky images.
+
 ## DAR-25.3.1
 
 Release date: Mar 10, 2025

@@ -17,7 +17,7 @@ ranger:
   crawler_address:
   image:
     name: securesky/ranger
-    tag: v0.10.0
+    tag: v0.20.0
     pullPolicy: IfNotPresent
   env: []
   priorityClassName: ""
