@@ -26,15 +26,7 @@ spec:
         {{- include "ranger.matchLabels" . | nindent 8 }}
     spec:
       containers:
-      {{- include "ranger.container" . | nindent 6 }}
-      readinessProbe:
-        tcpSocket:
-          port: 9000
-        initialDelaySeconds: 5
-        periodSeconds: 10
-        timeoutSeconds: 3
-        failureThreshold: 3
-        successThreshold: 1
+      {{- include "ranger.containerWithReadiness" . | nindent 6 }}
       restartPolicy: Always
       {{- if .Values.ranger.cfg.crawlerclient.usetls }}
       volumes:

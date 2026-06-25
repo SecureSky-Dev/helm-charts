@@ -50,3 +50,15 @@
     readOnly: true
   {{- end }}
 {{- end -}}
+
+{{- define "ranger.containerWithReadiness" -}}
+{{ include "ranger.container" . }}
+  readinessProbe:
+    tcpSocket:
+      port: 9000
+    initialDelaySeconds: 5
+    periodSeconds: 10
+    timeoutSeconds: 3
+    failureThreshold: 3
+    successThreshold: 1
+{{- end -}}
