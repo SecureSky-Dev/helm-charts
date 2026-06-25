@@ -32,4 +32,15 @@ entries:
     urls:
     - https://github.com/SecureSky-Dev/helm-charts/releases/download/soveren-dar-ranger-0.19.0/soveren-dar-ranger-0.19.0.tgz
     version: 0.19.0
-generated: "2026-06-25T10:07:38.266370831Z"
+  soveren-dar-sensor:
+  - apiVersion: v2
+    appVersion: 25.9.1
+    created: "2026-06-25T10:08:53.125046752Z"
+    description: Data at rest monitoring and analytics platform
+    digest: 5be30ea9eaa43b27ec3fe4bccdf7d226bd21133c59757ac3dd118e2439d85d7e
+    home: https://adaptiveshield.ai
+    name: soveren-dar-sensor
+    urls:
+    - https://github.com/SecureSky-Dev/helm-charts/releases/download/soveren-dar-sensor-0.27.0/soveren-dar-sensor-0.27.0.tgz
+    version: 0.27.0
+generated: "2026-06-25T10:08:53.125058646Z"
