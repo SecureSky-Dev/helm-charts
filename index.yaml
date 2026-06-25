@@ -11,4 +11,14 @@ entries:
     urls:
     - https://github.com/SecureSky-Dev/helm-charts/releases/download/soveren-agent-9.9.8-test.1/soveren-agent-9.9.8-test.1.tgz
     version: 9.9.8-test.1
-generated: "2026-06-14T17:31:41.470014623Z"
+  - apiVersion: v2
+    appVersion: 25.3.2
+    created: "2026-06-25T10:07:30.0654611Z"
+    description: Data flow monitoring and analytics platform
+    digest: b24d88d4ba41a771ea1f7e7b5330f955139a9fa2964c8f8db754b2bd6454713c
+    home: https://adaptiveshield.ai
+    name: soveren-agent
+    urls:
+    - https://github.com/SecureSky-Dev/helm-charts/releases/download/soveren-agent-1.53.0/soveren-agent-1.53.0.tgz
+    version: 1.53.0
+generated: "2026-06-25T10:07:30.065473652Z"
